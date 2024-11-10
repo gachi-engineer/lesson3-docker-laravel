@@ -30,6 +30,30 @@
    - Macの場合は、Terminal.appというアプリケーションが最初からインストールされていると思いますので、それを使ってください。
   
 ## Git cloneしてくる
-## まずは何も考えずにDockerを立ち上げる
+
+```
+hogehoge@localhost:$ git clone git@github.com:gachi-engineer/lesson1-docker.git
+```
+
+## 難しいことは何も考えずにDockerを立ち上げる
+
+```
+hogehoge@localhost:$ cd lesson1-docker/docker
+hogehoge@localhost:$ docker compose up -d
+[+] Running 8/8                                                                                                                                                                               
+ ✔ myfirstapp-web Pulled                                                                                                                                                                 6.2s 
+   ✔ a480a496ba95 Pull complete                                                                                                                                                          2.3s 
+   ✔ f3ace1b8ce45 Pull complete                                                                                                                                                          3.0s 
+   ✔ 11d6fdd0e8a7 Pull complete                                                                                                                                                          3.1s 
+   ✔ f1091da6fd5c Pull complete                                                                                                                                                          3.1s 
+   ✔ 40eea07b53d8 Pull complete                                                                                                                                                          3.1s 
+   ✔ 6476794e50f4 Pull complete                                                                                                                                                          3.1s 
+   ✔ 70850b3ec6b2 Pull complete                                                                                                                                                          3.1s 
+[+] Running 2/2
+ ✔ Network docker_default    Created                                                                                                                                                     0.1s 
+ ✔ Container myfirstapp-web  Started 
+```
+
 ## この画面が手元のパソコンのブラウザで表示されたらOK
+http://localhost:8080/ にブラウザでアクセスしてみる。
 <img src="https://raw.githubusercontent.com/gachi-engineer/lesson1-docker/refs/heads/develop/lesson/lesson1/screenshot.png" width="75%">
