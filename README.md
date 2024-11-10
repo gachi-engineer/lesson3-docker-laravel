@@ -29,3 +29,7 @@
    - Windowsの場合は、Visual Studio Codeのアプリケーション内メニューにある「ターミナル」から新しいターミナルをクリックすれば画面下側に出現します。
    - Macの場合は、Terminal.appというアプリケーションが最初からインストールされていると思いますので、それを使ってください。
   
+## Git cloneしてくる
+## まずは何も考えずにDockerを立ち上げる
+## この画面が手元のパソコンのブラウザで表示されたらOK
+<img src="https://raw.githubusercontent.com/gachi-engineer/lesson1-docker/refs/heads/develop/lesson/lesson1/screenshot.png" width="75%">
