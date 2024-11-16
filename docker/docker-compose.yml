@@ -1,6 +1,3 @@
-volumes:
-  myfirstapp-php-fpm-socket:
-
 services:
   myfirstapp-web:
     image: nginx:latest
