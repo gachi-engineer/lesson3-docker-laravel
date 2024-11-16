@@ -2,7 +2,6 @@ services:
   myfirstapp-web:
     image: nginx:latest
     container_name: myfirstapp-web
-    build: ./nginx
     ports:
       - "8080:80"
     volumes:
