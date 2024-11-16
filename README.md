@@ -20,4 +20,4 @@ hogehoge@localhost:$ docker compose up -d
 
 ## この画面が手元のパソコンのブラウザで表示されたらOK
 http://localhost:8080/ にブラウザでアクセスしてみる。
-<img src="https://raw.githubusercontent.com/gachi-engineer/lesson1-docker/refs/heads/develop/lesson/lesson1/screenshot.png" width="75%">
+<img src="https://raw.githubusercontent.com/gachi-engineer/lesson2-docker-php-fpm/refs/heads/master/lesson/lesson2/screenshot.png" width="75%">
