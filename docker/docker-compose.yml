@@ -1,3 +1,6 @@
+volumes:
+  myfirstapp-php-fpm-socket:
+
 services:
   myfirstapp-web:
     image: nginx:latest
@@ -5,5 +8,11 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ../src:/usr/share/nginx/html
+      - ../src:/var/www/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
 
+  myfirstapp-app:
+    image: php:8.3-fpm
+    container_name: myfirstapp-app
+    volumes:
+      - ../src:/var/www/html
