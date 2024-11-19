@@ -34,4 +34,4 @@ root@abcdefg123:$ php artisan key:generate
 
 ## この画面が手元のパソコンのブラウザで表示されたらOK
 http://localhost:8080/ にブラウザでアクセスしてみる。
-<img src="https://raw.githubusercontent.com/gachi-engineer/lesson2-docker-php-fpm/refs/heads/master/lesson/lesson2/screenshot.png" width="75%">
+<img src="https://raw.githubusercontent.com/gachi-engineer/lesson3-docker-laravel/refs/heads/master/lesson/lesson3/screenshot.png" width="75%">
